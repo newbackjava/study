@@ -1,6 +1,6 @@
 package 변수연산자; //패키지는 맨 위에 위치해야함.
 
-public class VariableTest {
+public class VariableTest { //자바파일명과 class명이 반드시 같아야함.
     public static void main(String[] args) {
 
         /*
@@ -52,5 +52,10 @@ public class VariableTest {
         System.out.println("내 몸무게 " + w + "kg이야.");
         System.out.println("내 성별은 " + gender + "자야.");
         System.out.println("나는 오늘 아침을 먹었을까? " + food);
+
+//        내 나이는 127세야.
+//        내 몸무게 70.5kg이야.
+//        내 성별은 여자야.
+//        나는 오늘 아침을 먹었을까? true
     }
 }
