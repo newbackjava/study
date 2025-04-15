@@ -1,4 +1,4 @@
-package test;
+package test1;
 
 public class OperTest {
     public static void main(String[] args) {
@@ -56,5 +56,10 @@ public class OperTest {
         int y = 5;
         y += 3; //y = y + 3;과 동일
         System.out.println(y);
+
+        int a = 15;
+        int b = 12;
+        int result3 = a & b;
+        System.out.printf("결과는 %d", result3);
     }
 }
