@@ -1,4 +1,4 @@
-package 변수연산자;
+package test;
 
 import java.util.Scanner;
 

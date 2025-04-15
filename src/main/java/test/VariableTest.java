@@ -1,7 +1,8 @@
-package 변수연산자; //패키지는 맨 위에 위치해야함.
+package test; //패키지는 맨 위에 위치해야함.
 
 public class VariableTest { //자바파일명과 class명이 반드시 같아야함.
     public static void main(String[] args) {
+
 
         /*
             - 자바는 ;생략 불가능, 엄격한 문법, 대소문자 구분

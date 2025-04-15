@@ -1,4 +1,4 @@
-package 변수연산자;
+package test;
 
 public class OperTest {
     public static void main(String[] args) {

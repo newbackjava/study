@@ -1,7 +1,8 @@
-package 변수연산자;
+package test;
 
 public class CastingTest {
     public static void main(String[] args) {
+
         //특정 타입의 변수에 저장된 값을 다른 타입의 변수에 넣을 수 있음.
         //이때 데이터는 해당 타입으로 변환되어 들어감(형변환)
         //1. 큰 크기의 변수 <----- 작은 크기의 변수 : 자동으로 해당하는 큰 타입으로 변환되어 들어감
