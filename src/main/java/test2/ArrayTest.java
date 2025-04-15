@@ -1,5 +1,7 @@
 package test2;
 
+import java.util.Arrays;
+
 public class ArrayTest {
     public static void main(String[] args) {
         //같은 타입의 데이터를 많이 사용하고 하는 경우
@@ -34,6 +36,10 @@ public class ArrayTest {
             System.out.println(one);
         }
 
+        //✅ 출력(제일 간단)
+        System.out.println("--- Arrays.toString()출력 ---");
+        System.out.println(Arrays.toString(ages));
+
         //✅ 주제 - 가족(몸무게)
         double[] w = {88.1, 52.2, 63.3, 77.2};
         System.out.println("--- 몸무게 출력 ---");
@@ -62,6 +68,8 @@ public class ArrayTest {
 //        45
 //        35
 //        25
+//        --- Arrays.toString()출력 ---
+//        [50, 45, 35, 25]
 //        --- 몸무게 출력 ---
 //        88.1
 //        52.2
