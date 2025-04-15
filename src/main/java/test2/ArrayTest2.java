@@ -5,8 +5,10 @@ public class ArrayTest2 {
     //다차원 배열(극장의 각 열마다 자리 번호가 있는 경우)
     // 1. 배열 만들때 값을 미리 알고 있는 경우
         int[][] seats = {
-                {1, 2}, //seats[0][0], seats[0][1]
-                {3, 4, 5}, //seats[1][0], seats[1][1], seats[1][2]
+                {1, 2},
+                //seats[0][0], seats[0][1]
+                {3, 4, 5},
+                //seats[1][0], seats[1][1], seats[1][2]
                 {6, 7, 8, 9}
                 //seats[2][0], seats[2][1], seats[2][2], seats[2][3]
         };
@@ -26,7 +28,6 @@ public class ArrayTest2 {
         seats3[2] = new int[] { 6, 7, 8, 9};
 
         System.out.println(seats3[2][0]); //6
-
 
 //        3
 //        2
