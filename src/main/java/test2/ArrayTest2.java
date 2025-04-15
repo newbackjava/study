@@ -27,5 +27,11 @@ public class ArrayTest2 {
 
         System.out.println(seats3[2][0]); //6
 
+
+//        3
+//        2
+//        1
+//        6
+
     }
 }
