@@ -2,7 +2,7 @@ package test2;
 
 public class StringTest {
     public static void main(String[] args) {
-        //String을 기본형처럼 값을 대입하면
+        //✅ String을 기본형처럼 값을 대입하면
         //하나의 힙영역을 가리키게 된다.
         String s0 = null;
         System.out.println(s0);
@@ -14,7 +14,7 @@ public class StringTest {
         String s1 = "자바";
         String s2 = "자바";
 
-        //참조형 변수 주소 비교
+        //✅ 참조형 변수 주소 비교
         System.out.println(s1 == s2); //true, 주소 동일O
         String s3 = new String("자바");
         System.out.println(s1 == s3); //false, 주소 동일X
