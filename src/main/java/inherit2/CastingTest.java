@@ -24,6 +24,8 @@ public class CastingTest {
 
         Object o = list.get(0);
         //System.out.println(o.charAt(0));  불가능
+        //⭕add()시 Object으로 형변환되어 들어갔기 때문에
+        //   Object에 있는 메서드만 호출 가능함.
         //Object에 charAt()이 없음.
         String s = (String)list.get(0); //강제형변환
         System.out.println(s);
