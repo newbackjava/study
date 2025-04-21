@@ -8,7 +8,13 @@ import java.util.Random;
 public class CastingTest {
     public static void main(String[] s0){
         List list = new ArrayList();
+        //😊 리스트에 다양한 타입의 데이터를 모으고 싶은 경우
+        //Object class가 최상위 클래스이므로
+        //하위 모든 클래스는 Object타입의 변수 자리에 모두
+        //넣을 수 있음.
         //public boolean add(Object o){}
+        //✅ Object o인 경우 Object타입으로 설정해놓으면
+        //    모든 타입을 넣을 수 있음.
         //Object 매개변수에 하위 모든 객체가 다 들어갈 수 있음.
 
         list.add(new String("test")); //자동형변환
