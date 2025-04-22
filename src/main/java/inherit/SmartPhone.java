@@ -1,11 +1,11 @@
 package inherit;
 
-public class SmartPhone extends Phone{
+public class SmartPhone extends Phone  {
     //필드 2개, color, model ---> 3개
     //메서드 4개 --> 6개
     //클래스내 내 메서드는 마음대로 호출가능
     //Phone();
-    
+
     public boolean wifi; //클래스 바로 아래 선언된 필드는 자동초기화
     //false 자동초기화!
 

@@ -59,7 +59,7 @@ public class CastingTest {
         //Object클래스는 8개의 메서드
         //ABC, toLowerCase()소문자로, charAt()한글자 추출
         //o.charAt(); //XXXX, Object타입에는 String의 메서드를 호출 불가능
-        //꺼내가지고 String의 메서드를 쓰고 싶은 경우에는 다시 String으로
+        //꺼내서 String의 메서드를 쓰고 싶은 경우에는 다시 String으로
         //변경해주어야 charAt()등의 메서드를 쓸 수 있다.
         String s = (String)list.get(0); //강제형변환
         System.out.println(s.charAt(0));
