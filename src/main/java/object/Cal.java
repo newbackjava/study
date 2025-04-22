@@ -1,5 +1,6 @@
 package object;
 
+
 public class Cal {
     //필드나 메서드가 없을 수도 있음.
     //생성자가 하나도 없는 경우 컴파일시 자동으로 생성해줌.

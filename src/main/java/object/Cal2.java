@@ -1,5 +1,6 @@
 package object;
 
+
 public class Cal2 {
     int price; //인스턴스 변수
     //클래스가지고 만든 객체(인스턴스)
