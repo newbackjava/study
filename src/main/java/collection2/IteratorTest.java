@@ -10,7 +10,8 @@ public class IteratorTest {
         bag.add("A");
         bag.add("B");
         bag.add("C");
-        
+
+
         //set은 index가 없으므로 index를 이용한 접근은 불가능
 //        for (int i = 0; i < bag.size(); i++) {
 //            System.out.println(bag.get(i));
