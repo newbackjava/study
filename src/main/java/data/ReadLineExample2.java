@@ -11,6 +11,8 @@ public class ReadLineExample2 {
             //BufferedWriter bw = new BufferedWriter(new FileWriter("c:/TEMP/Hello2.java"));
             //buffer(버퍼, 임시기억장치, 많은 양을 넣을 수 있음.)
             while (true){
+                //readLine()메서드 호출 전에
+                //버퍼에 넣어줌.
                 String str = bs.readLine();
                 if(str == null) break;
                 System.out.println(str);
